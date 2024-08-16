@@ -4,7 +4,7 @@ import profilePic from "../assets/balav.png"
 function Hero() {
     const { name, description, linkedin, github, resume } = about
   return (
-    <section className="pt-10 overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
+    <section className=" overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
         <div className="grid items-center grid-cols-1 md:grid-cols-2">
           <div>
