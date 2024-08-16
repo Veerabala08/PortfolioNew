@@ -3,6 +3,17 @@ import profilePic from "../assets/balav.png"
 
 function Hero() {
     const { name, description, linkedin, github, resume } = about
+    const handleGithub = () => {
+      window.open(github, '_blank'); 
+    };
+    
+    const handleLinkedin = () => {
+      window.open(linkedin, '_blank'); 
+    };
+    
+    const handleResume = () => {
+      window.open(resume, '_blank'); 
+    };
   return (
     <section className=" overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
@@ -17,15 +28,15 @@ function Hero() {
             </p>
 <br/>
             <div className="inline-flex rounded-lg border border-gray-100 bg-gray-100 p-1">
-              <button className="inline-block rounded-md px-4 py-2 text-sm text-gray-500 hover:text-gray-700 focus:relative">
+              <button onClick={handleGithub} className="inline-block rounded-md px-4 py-2 text-sm text-gray-500 hover:text-gray-700 focus:relative">
                 Github
               </button>
 
-              <button className="inline-block rounded-md px-4 py-2 text-sm text-gray-500 hover:text-gray-700 focus:relative">
+              <button onClick={handleLinkedin} className="inline-block rounded-md px-4 py-2 text-sm text-gray-500 hover:text-gray-700 focus:relative">
                 LinkedIn
               </button>
 
-              <button className="inline-block rounded-md bg-white px-4 py-2 text-sm text-blue-500 shadow-sm focus:relative">
+              <button onClick={handleResume} className="inline-block rounded-md bg-white px-4 py-2 text-sm text-blue-500 shadow-sm focus:relative">
                 Resume
               </button>
             </div>

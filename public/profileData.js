@@ -74,7 +74,6 @@ Participated in daily stand-up meetings to communicate progress, identify blocke
   const skills = ['Python', 'JavaScript', 'HTML', 'CSS', 'SQL', 'GIT', 'GitHub', 'Postman API', 'Ubuntu', 'Frappe', 'Django', 'Flask', 'Ajax', 'Jquery', 'React']
   
   const contact = {
-    // email is optional - if left empty Contact section won't show up
     email: 'veerabalamaruthaiyan@gmail.com',
   }
   
