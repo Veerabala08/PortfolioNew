@@ -1,5 +1,7 @@
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+import 'sweetalert2/src/sweetalert2.scss'
 
 const EmailForm = () => {
   const {register, handleSubmit, formState:{errors, isSubmitting}, reset} = useForm();
@@ -14,12 +16,23 @@ const EmailForm = () => {
             import.meta.env.VITE_EMAILJS_USER_ID
           );
         console.log("success", response.text)
-        alert("email sent successfully")
+        Swal.fire({
+          title: "success",
+          text: "Email sent successfully.",
+          icon: "success",
+          confrimButtonText:'Ok',
+          timer: 1500
+        });
         reset();
      }
      catch(error){
         console.log("error", error.text)
-        alert('Failed to send email. Please try again.');
+        Swal.fire({
+          title: "Oops...",
+          text: "Failed to send email. Please try again.",
+          icon: "error",
+          confrimButtonText:'Ok'
+        });
      }
   }
   return (

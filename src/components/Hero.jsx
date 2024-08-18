@@ -14,6 +14,7 @@ function Hero() {
     const handleResume = () => {
       window.open(resume, '_blank'); 
     };
+    
   return (
     <section className=" overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
