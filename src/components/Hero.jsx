@@ -18,13 +18,13 @@ function Hero() {
   return (
     <section className=" overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
-        <div className="grid items-center grid-cols-1 md:grid-cols-2">
+        <div className="grid gap-2 items-center grid-cols-1 md:grid-cols-2">
           <div>
             <h2 className="text-2xl font-bold leading-tight text-black sm:text-5xl lg:text-5xl">
               Hey 👋 I am <br className="block sm:hidden" />
               {name}
             </h2>
-            <p className="max-w-lg mt-3 text-xl text-justify leading-relaxed text-gray-600 md:mt-8">
+            <p className=" mt-3 text-xl text-justify leading-relaxed text-gray-600 md:mt-8">
               {description}
             </p>
 <br/>

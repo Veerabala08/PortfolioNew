@@ -9,8 +9,6 @@ const about = {
   }
   
   const projects = [
-    // projects can be added an removed
-    // if there are no projects, Projects section won't show up
     {
         id:1,
       name: 'Spotify Web API',
@@ -42,11 +40,21 @@ const about = {
         id:4,
       name: 'Portfolio',
       description:
-        ' website to showcase the  skills and projects  that I have created. If you are reading this, you are on the website itself.Live Portfolio website to showcase the  skills and projects  that I have created. If you are reading this, you are on the website itself.',
-      stack: ['React', 'Github', 'Spline 3D'],
-      sourceCode: 'https://github.com/Veerabala08/portfolio',
-      livePreview: 'https://veerabala08.github.io/portfolio/',
+        'Webpage to showcase the  skills and projects  that I have created. If you are reading this, you are on the website itself.',
+      stack: ['React','Netlify','Git'],
+      sourceCode: 'https://github.com/Veerabala08/PortfolioNew',
+      livePreview: 'https://veerabala-portfolio.netlify.app/',
     },
+    {
+      id:5,
+    name: 'Ecommerce Store',
+    description:
+      'This web application simulates an online shop where users can browse products, add them to their cart, and proceed to checkout. The project incorporates the oncepts of React for building user interfaces and Redux for managing application state in a predictable way.',
+    stack: ['React','Vercel','Git'],
+    sourceCode: 'https://github.com/Veerabala08/shop',
+    livePreview: 'https://online-store-one-ruby.vercel.app',
+    img:'shop'
+  },
   ]
   const experience = [{
     from: 'Nov 2022',

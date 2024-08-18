@@ -1,8 +1,10 @@
 import Projects from "./Projects";
 import {projects} from "../../public/profileData"
-import { useEffect, useState } from "react";
+
 function ProjectsCollections() {
-    if(!projects.length) return null
+  const reversedProjects = [...projects].reverse();
+
+  if (!reversedProjects.length) return null;
   return (
     <>
       <section id="project"> 
@@ -16,7 +18,7 @@ function ProjectsCollections() {
             </p> */}
           </header>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
-            {projects.map((project)=>(
+            {reversedProjects.map((project)=>(
                 <li key={project.id}>
                 <Projects project={project} />
                </li>

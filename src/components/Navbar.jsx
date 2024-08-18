@@ -14,15 +14,15 @@ const Navbar = () => {
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
         <div>
         <Link to="home" smooth duration={700}>
-          <h1 className=" text-slate-700  hover:text-purple-800 text-xl font-bold">Home</h1>
+          <h1 className=" text-slate-700  hover:text-purple-800 cursor-pointer text-xl font-bold">Home</h1>
         </Link>
         </div>
         <div className="hidden md:flex">
           <ul className="flex text-slate-700 font-medium items-center">
-            <Link to="skills" smooth duration={700}><li className="text-lg p-2  hover:text-purple-700">Skills</li></Link>
-            <Link to="project"  smooth duration={700}><li className="text-lg p-2  hover:text-purple-700">Projects</li></Link>
-            <Link to="expreience" smooth duration={700}><li className="text-lg p-2  hover:text-purple-700">Experience</li></Link>
-            <Link to="footer" smooth duration={700}><li className="text-lg p-2  hover:text-purple-700">Contact</li></Link>
+            <Link to="skills" smooth duration={700}><li className="text-lg p-2 cursor-pointer hover:text-purple-700">Skills</li></Link>
+            <Link to="project"  smooth duration={700}><li className="text-lg p-2 cursor-pointer  hover:text-purple-700">Projects</li></Link>
+            <Link to="expreience" smooth duration={700}><li className="text-lg p-2 cursor-pointer  hover:text-purple-700">Experience</li></Link>
+            <Link to="footer" smooth duration={700}><li className="text-lg p-2 cursor-pointer  hover:text-purple-700">Contact</li></Link>
           </ul>
         </div>
 
@@ -44,10 +44,10 @@ const Navbar = () => {
             }
         >
           <ul>
-            <Link to="skills" smooth duration={700}><li className="text-lg p-2 hover:text-purple-700 font-medium">Skills</li></Link>
-            <Link to="project"  smooth duration={700}><li className="text-lg p-2 hover:text-purple-700 font-medium">Projects</li></Link>
-          <Link to="expreience" smooth duration={700}><li className="text-lg p-2 hover:text-purple-700 font-medium">Experience</li></Link>
-            <Link to="footer" smooth duration={700}><li className="text-lg p-2 hover:text-purple-700 font-medium">Contact</li></Link>
+            <Link to="skills" smooth duration={700}><li className="text-lg p-2 cursor-pointer hover:text-purple-700 font-medium">Skills</li></Link>
+            <Link to="project"  smooth duration={700}><li className="text-lg p-2 cursor-pointer hover:text-purple-700 font-medium">Projects</li></Link>
+          <Link to="expreience" smooth duration={700}><li className="text-lg p-2 cursor-pointer hover:text-purple-700 font-medium">Experience</li></Link>
+            <Link to="footer" smooth duration={700}><li className="text-lg p-2 cursor-pointer hover:text-purple-700 font-medium">Contact</li></Link>
           </ul>
         </div>
       </div>
