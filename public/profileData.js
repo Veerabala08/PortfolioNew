@@ -44,6 +44,7 @@ const about = {
       stack: ['React','Netlify','Git'],
       sourceCode: 'https://github.com/Veerabala08/PortfolioNew',
       livePreview: 'https://veerabala-portfolio.netlify.app/',
+      img:'PortfolioNew'
     },
     {
       id:5,
