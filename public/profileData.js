@@ -22,7 +22,7 @@ const about = {
         id:2,
       name: 'Learning Log',
       description:
-        "  website to showcase the  skills and projects  that I have created. If you are reading this, you are on the website itself. An online journal system that lets you keep track of information you've learned about particular topics",
+        "An online journal system that lets you keep track of information you've learned about particular topics.",
       stack: ['Python', 'Django', 'Bootstrap'],
       sourceCode: 'https://github.com/Veerabala08/Learning_Log',
       livePreview: '',
@@ -40,17 +40,27 @@ const about = {
         id:4,
       name: 'Portfolio',
       description:
-        'Webpage to showcase the  skills and projects  that I have created. If you are reading this, you are on the website itself.',
+        'Webpage to showcase the  skills and projects  that I have created. If you are reading this, you are on the website itself. You can send me mail through it.',
       stack: ['React','Netlify','Git'],
       sourceCode: 'https://github.com/Veerabala08/PortfolioNew',
       livePreview: 'https://veerabala-portfolio.netlify.app/',
     },
     {
       id:5,
+    name: 'Dashboard',
+    description:
+      'Working on a Beautiful Dashboard Application using nextJS 14 with mongoDb.',
+    stack: ['Nextjs','Vercel','Mongodb','Git'],
+    sourceCode: 'https://github.com/Veerabala08/dashboardNextjs',
+    livePreview: '',
+    img:'dashboardNextjs'
+  },
+    {
+      id:6,
     name: 'Ecommerce Store',
     description:
       'This web application simulates an online shop where users can browse products, add them to their cart, and proceed to checkout. The project incorporates the oncepts of React for building user interfaces and Redux for managing application state in a predictable way.',
-    stack: ['React','Vercel','Git'],
+    stack: ['React','Redux','Vercel','Git'],
     sourceCode: 'https://github.com/Veerabala08/shop',
     livePreview: 'https://online-store-one-ruby.vercel.app',
     img:'shop'

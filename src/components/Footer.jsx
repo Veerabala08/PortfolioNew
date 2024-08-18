@@ -12,7 +12,7 @@ function Footer() {
           </div>
 
           <div className="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24">
-           <p>Made with Love and coffe</p>
+           <p className="font-bold">Hey you reached the Footer ^_^</p>
           </div>
         </div>
       </footer>

@@ -13,9 +13,9 @@ function ProjectsCollections() {
             <h2 className=" text-center text-2xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
               Projects
             </h2>
-            {/* <p className="mt-4 max-w-md text-gray-500">
-
-            </p> */}
+            <p className="mt-4 max-w-md text-red-500">
+              {/* ****projects contents needs to be update */}
+            </p>
           </header>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {reversedProjects.map((project)=>(
