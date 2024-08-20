@@ -10,6 +10,7 @@ const EmailForm = () => {
     try{
 
         const response = await emailjs.send(
+          // credentials
             import.meta.env.VITE_EMAILJS_SERVICE_ID,
             import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
             data,

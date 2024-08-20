@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { MdPreview,} from "react-icons/md";
 import { RiGithubFill } from "react-icons/ri";
 

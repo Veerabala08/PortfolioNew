@@ -5,7 +5,7 @@ function Experience() {
   return (
     <>
       {/* <section className="relative min-h-screen flex flex-col justify-center bg-slate-50 overflow-hidden"> */}
-        <div id="expreience" className=" w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
+        <div id="expreience" className=" w-full max-w-6xl mx-auto px-4 md:px-6 pt-24">
         <h2 className="[margin-top:-50px] text-2xl text-center font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Experience</h2>
           <div className="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
             <div className="w-full max-w-3xl mx-auto">

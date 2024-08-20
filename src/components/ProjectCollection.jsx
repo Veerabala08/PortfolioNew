@@ -15,6 +15,7 @@ function ProjectsCollections() {
             </h2>
             <p className="mt-4 max-w-md text-red-500">
               {/* ****projects contents needs to be update */}
+              
             </p>
           </header>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 ">

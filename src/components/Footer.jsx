@@ -1,4 +1,5 @@
 import Email from "./Email"
+
 function Footer() {
   return (
     <>
