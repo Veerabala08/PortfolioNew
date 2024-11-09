@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="w-full h-[55px] isolate  bg-white/60 backdrop-blur-sm shadow-lg ring-1 ring-black/5 fixed [z-index:1000]">
+    <div className="w-full h-[55px] isolate  bg-blue-50/60 backdrop-blur-sm shadow-lg ring-1 ring-black/5 fixed [z-index:1000]">
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
         <div>
         <Link to="home" smooth duration={700}>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "w-full isolate bg-white/60 backdrop-blur-sm shadow-lg ring-1 ring-black/5  text-slate-700 absolute top-[60px] left-0 flex justify-center text-center"
+              ? "w-full isolate bg-blue-50/60 backdrop-blur-sm shadow-lg ring-1 ring-black/5  text-slate-700 absolute top-[60px] left-0 flex justify-center text-center"
               : "absolute left-[-100%]"
             }
         >
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-    <div id="home" className="pt-[60px]"></div>
+    <div id="home" className="pt-[55px]"></div>
      </>
   );
 };
