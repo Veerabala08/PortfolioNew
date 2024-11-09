@@ -6,7 +6,7 @@ const about = {
        I help create applications that address customer needs and solve complex challenges related to both Frontend and Backend. 
        Learning and trying out new tech is something I'm all about. I'd thrive in a place that values creative thinking, teamwork, and independence.
        Ready to turn complex challenges into simple solutions!`,
-    resume: 'https://drive.google.com/file/d/1R-oXxFJfsUkgvI5a-9WVqXM5-97HpuUm/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/1r3Rrc4vBUtoHcOboh5vQxpKymV5OCFrB/view?usp=sharing',
     linkedin: 'https://www.linkedin.com/in/veerabala-maruthaiyan-503015185/',
     github: 'https://github.com/Veerabala08',
   }
